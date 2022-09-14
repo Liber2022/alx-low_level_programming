@@ -1,0 +1,21 @@
+#!/bin/bash
+#include"main.h"
+/**
+*main -entry: program entry
+*Descriptions: print _putchar
+*Return: return 0
+*/
+int main(void)
+{
+	char n[10] = "_putchar";
+	int m = 0;
+
+	for (m = 0; m <9; m++)
+	{
+		_putchar(n[m]);
+	}
+	-putchar('\n');
+
+	return (0);
+}
+
